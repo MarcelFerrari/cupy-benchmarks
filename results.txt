@@ -1,0 +1,122 @@
+
+==================================================
+
+Benchmarking GPU DGEMM
+Dimension of System: 20000x20000
+Time taken: 2.44190 seconds
+GFLOPs: 6552.11
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU dot product
+Dimension of System: 50000x50000
+Time taken: 0.02381 seconds
+GFLOPs: 209.99
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU symmetric eigenvalue decomposition
+Dimension of Matrix: 10000x10000
+Time taken: 3.62596 seconds
+GFLOPs: 367.75
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU elementwise multiplication
+Dimension of System: 40000x40000
+Time taken: 0.03173 seconds
+GFLOPs: 50.42
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU 3D REAL FFT
+Dimension of Tensor: 800x800x800
+Time taken: 0.06038 seconds
+GFLOPs: 613.31
+
+==================================================
+
+Benchmarking GPU 3D COMPLEX FFT
+Dimension of Tensor: 800x800x800
+Time taken: 0.16242 seconds
+GFLOPs: 456.00
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU partial pivot LU system solver
+Dimension of System: 30000
+Time taken: 3.49287 seconds
+GFLOPs: 5153.74
+Residual L∞ error: 4.483336e-07
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU STREAM COPY in Double Precision
+Number of Elements: 500000000
+Time taken: 0.00992 seconds
+Bandwidth: 806.41 GB/s
+
+==================================================
+
+Benchmarking GPU STREAM SCALE in Double Precision
+Number of Elements: 500000000
+Time taken: 0.00993 seconds
+Bandwidth: 805.74 GB/s
+
+==================================================
+
+Benchmarking GPU STREAM SUM in Double Precision
+Number of Elements: 500000000
+Time taken: 0.01467 seconds
+Bandwidth: 818.23 GB/s
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU tensor sum reduction
+Dimension of Tensor: 800x800x800
+Time taken: 0.42827 seconds
+GFLOPs: 1.20
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU tensor multiply reduction
+Dimension of Tensor: 800x800x800
+Time taken: 0.42792 seconds
+GFLOPs: 1.20
+
+==================================================
+
+
+==================================================
+
+Benchmarking GPU tensor max reduction
+Dimension of Tensor: 800x800x800
+Time taken: 0.47723 seconds
+GFLOPs: 1.07
+
+==================================================
+
